@@ -1,7 +1,4 @@
-import numpy as np
 import pandas as pd
-
-s = pd.Series([1, 3, 5, np.nan, 6, 8])
 
 from io import StringIO
 
@@ -51,17 +48,25 @@ def find_topic(arr):
     pickle.dump(corpus, open('corpus.pkl', 'wb'))
     dictionary.save('dictionary.gensim')
     ldamodel = models.ldamodel.LdaModel(corpus, num_topics=1, id2word=dictionary, passes=15)
-    ldamodel.save('model5.gensim')
-    topics = ldamodel.print_topics(num_words=4)
+
+    topics = ldamodel.show_topic(0)
+
     # for topic in topics:
     #     print(topic)
-    print(topics[0])
-    return ldamodel.get_topics()
+    topics.sort(key=lambda tup: tup[1], reverse=True)
+    print(topics)
+
+    return topics
 
 # Parse topics for visualization
 def parseForVis(topics):
     cleaned = topics.split(' ')
 
+import pyLDAvis.gensim
+
+def vis(lda, corpus, dictionary):
+    lda_display = pyLDAvis.gensim.prepare(lda, corpus, dictionary, sort_topics=False)
+    pyLDAvis.display(lda_display)
 
 def main():
     with open('content_cleaned.csv', 'r') as csvfile:
@@ -74,6 +79,9 @@ def main():
     df["content"] = df["content"].apply(stem)
     df["topics"] = df["content"].apply(find_topic)
     print(df)
+    f = open('tuples.csv', 'w')
+    f.write(df.to_csv())
+    f.close()
 main()
 
 
