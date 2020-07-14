@@ -59,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NLP" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NLP/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,30 +130,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1864" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594664671279">
+    <state x="1864" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594685164534">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1864" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594664671279" />
-    <state width="1899" height="304" key="GridCell.Tab.0.bottom" timestamp="1594680814992">
+    <state x="1864" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594685164534" />
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom" timestamp="1594690042497">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594680814992" />
-    <state width="1899" height="304" key="GridCell.Tab.0.center" timestamp="1594680814991">
+    <state width="1899" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594690042497" />
+    <state width="1899" height="304" key="GridCell.Tab.0.center" timestamp="1594690042495">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="304" key="GridCell.Tab.0.center/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594680814991" />
-    <state width="1899" height="304" key="GridCell.Tab.0.left" timestamp="1594680814990">
+    <state width="1899" height="304" key="GridCell.Tab.0.center/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594690042495" />
+    <state width="1899" height="304" key="GridCell.Tab.0.left" timestamp="1594690042494">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="304" key="GridCell.Tab.0.left/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594680814990" />
-    <state width="1899" height="304" key="GridCell.Tab.0.right" timestamp="1594680814992">
+    <state width="1899" height="304" key="GridCell.Tab.0.left/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594690042494" />
+    <state width="1899" height="304" key="GridCell.Tab.0.right" timestamp="1594690042496">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="304" key="GridCell.Tab.0.right/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594680814992" />
-    <state x="1901" y="179" key="SettingsEditor" timestamp="1594678442490">
+    <state width="1899" height="304" key="GridCell.Tab.0.right/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594690042496" />
+    <state x="1901" y="179" key="SettingsEditor" timestamp="1594684721191">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1901" y="179" key="SettingsEditor/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594678442490" />
+    <state x="1901" y="179" key="SettingsEditor/0.0.1440.900/3360.0.1920.1080/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594684721191" />
     <state x="1901" y="179" key="SettingsEditor/0.23.1440.797/3360.23.1920.1057/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594665409644" />
     <state x="1901" y="179" key="SettingsEditor/0.23.1440.877/3360.23.1920.1057/1440.0.1920.1080@1440.0.1920.1080" timestamp="1594677817590" />
     <state x="374" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1594664312443">
